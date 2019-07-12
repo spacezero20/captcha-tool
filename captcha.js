@@ -7,9 +7,9 @@ let scrape = async () => {
 
     // Enter Gmail + Password
     await page.goto('https://www.gmail.com/');
-    await page.keyboard.type('garrettg3005@gmail.com')
+    await page.keyboard.type('johndoe@gmail.com')
     await page.keyboard.press('Enter');
-    await page.keyboard.type("Gman1998!");
+    await page.keyboard.type("Passw0rd!");
     await page.waitFor(2000);
     // Go to Youtube
     await page.goto('https://youtube.com/');
